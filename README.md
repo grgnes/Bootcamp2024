@@ -18,40 +18,40 @@
       <td>Mehmet Akif Özden</td>
       <td>Scrum Master/Developer</td>
       <td>
-        <a href="https://github.com/akifozden" target="_blank"><p align="center"><img src="Bootcamp2024-ProjectManagement/main/github.png" width="20" height="20"/></a>
-        <a href="https://www.linkedin.com/in/%C3%B6zdenmehmetakif/" target="_blank" ><p align="center"><img src="Bootcamp2024-ProjectManagement/main/In.png" width="20" height="20" /></a>
+        <a href="https://github.com/akifozden" target="_blank"><img src="Bootcamp2024-ProjectManagement/main/github.png" width="20" height="20"/></a><p align="center">
+        <a href="https://www.linkedin.com/in/%C3%B6zdenmehmetakif/" target="_blank" ><img src="Bootcamp2024-ProjectManagement/main/In.png" width="25" height="20" /></a><p align="center">
       </td>
     </tr>
     <tr>
       <td>Nefise Buse Uzun</td>
       <td>Product Owner/Developer</td>
        <td>
-        <a href="https://github.com/NefiseBuse" target="_blank"><p align="center"><img src="Bootcamp2024-ProjectManagement/main/github.png" width="20" height="20"/></a>
-        <a href="https://www.linkedin.com/in/nefise-buse-uzun-80917a288/" target="_blank" ><p align="center"><img src="Bootcamp2024-ProjectManagement/main/In.png" width="20" height="20" /></a>
+        <a href="https://github.com/NefiseBuse" target="_blank"><img src="Bootcamp2024-ProjectManagement/main/github.png" width="20" height="20"/></a><p align="center">
+        <a href="https://www.linkedin.com/in/nefise-buse-uzun-80917a288/" target="_blank" ><img src="Bootcamp2024-ProjectManagement/main/In.png" width="25" height="20" /></a><p align="center">
        </td>
     </tr>
     <tr>
       <td>Merve Karkın</td>
       <td>Developer</td>
        <td>
-        <a href="https://github.com/mexrve" target="_blank"><p align="center"><img src="Bootcamp2024-ProjectManagement/main/github.png" width="20" height="20"/></a>
-        <a href="https://www.linkedin.com/in/merve-karkin/" target="_blank" ><p align="center"><img src="Bootcamp2024-ProjectManagement/main/In.png" width="20" height="20" /></a>
+        <a href="https://github.com/mexrve" target="_blank"><img src="Bootcamp2024-ProjectManagement/main/github.png" width="20" height="20"/></a><p align="center">
+        <a href="https://www.linkedin.com/in/merve-karkin/" target="_blank" ><img src="Bootcamp2024-ProjectManagement/main/In.png" width="25" height="20" /></a><p align="center">
        </td>
     </tr>
     <tr>
       <td>Neslihan Gürgen</td>
       <td>Developer</td>
        <td>
-        <a href="https://github.com/grgnes" target="_blank"><p align="center"><img src="Bootcamp2024-ProjectManagement/main/github.png" width="20" height="20"/></a>
-        <a href="https://www.linkedin.com/in/neslihan-g%C3%BCrgen/" target="_blank" ><p align="center"><img src="Bootcamp2024-ProjectManagement/main/In.png" width="20" height="20" /></a>
+        <a href="https://github.com/grgnes" target="_blank"><img src="Bootcamp2024-ProjectManagement/main/github.png" width="20" height="20"/></a><p align="center">
+        <a href="https://www.linkedin.com/in/neslihan-g%C3%BCrgen/" target="_blank" ><img src="Bootcamp2024-ProjectManagement/main/In.png" width="25" height="20" /></a><p align="center">
        </td>
     </tr>
     <tr>
       <td>Mehmet Ali Keklik</td>
       <td>Developer</td>
        <td>
-        <a href="https://github.com/Dumran" target="_blank"><p align="center"><img src="Bootcamp2024-ProjectManagement/main/github.png" width="20" height="20"/></a>
-        <a href="https://www.linkedin.com/in/mehmet-ali-keklik/" target="_blank" ><p align="center"><img src="Bootcamp2024-ProjectManagement/main/In.png" width="20" height="20" /></a>
+        <a href="https://github.com/Dumran" target="_blank"><img src="Bootcamp2024-ProjectManagement/main/github.png" width="20" height="20"/></a><p align="center">
+        <a href="https://www.linkedin.com/in/mehmet-ali-keklik/" target="_blank" ><img src="Bootcamp2024-ProjectManagement/main/In.png" width="25" height="20" /></a><p align="center">
        </td>
     </tr>
   </tr>
