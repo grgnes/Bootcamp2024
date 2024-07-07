@@ -111,7 +111,7 @@
 
   * <h2>Ana Hedef Kitle:<h2>
 1. Çevreye Duyarlı Kişiler: Sürdürülebilir bir yaşam tarzı benimseyen ve atık oluşumunu azaltmak isteyen kişiler. Bu kitle, uygulama aracılığıyla daha az ürün satın alarak ve daha fazla ürün takas ederek çevresel ayak izlerini küçültmeyi amaçlar.
-2. Maddi Tasarruf Etmek İsteyenler: Bütçelerini kontrol altında tutmak ve para tasarrufu yapmak isteyen kişiler. Bu kitle, uygulamada kullanmadıkları ürünleri satarak veya takas ederek gelir elde etmeyi ve yeni ürünler edinmeyi amaçlar.
+2. Maddi Tasarruf Etmek İsteyenler: Bütçelerini kontrol altında tutmak ve para tasarrufu yapmak isteyen kişiler. Bu kitle, uygulamada kullanmadıkları ürünleri takas ederek satın almak yerine yeni ürünler edinmeyi amaçlar.
 3. Benzersiz Ürün Arayanlar: Seri üretim ürünlerden sıkılan ve özgün ve vintage ürünler arayan kişiler. Bu kitle, uygulamada nadir ve özel ürünler keşfederek tarzlarını yansıtmayı amaçlar.
 4. Yeni İnsanlarla Tanışmak İsteyenler: Sosyalleşmek ve yeni insanlarla tanışmak isteyen kişiler. Bu kitle, uygulamada ortak ilgi alanlarına sahip kişilerle bağlantı kurarak yeni bağlantılar kurmayı amaçlar.
   * <h2>Alt Hedef Kitleler:<h2>
