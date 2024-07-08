@@ -150,6 +150,9 @@ işletmeler.
 
   <details>
     <summary><h3>Sprint 1 - Uygulama Tasarım Görüntüleri</h3></summary>
+
+    (Tasarım ve Frontend ekibi tasarım çalışmalarına aktif olarak devam ettiği için final tasarımı değil güncel tasarımı temsil eder.)
+  
   <table style="width: 100%;">
     <tr>
       <td colspan="4" style="text-align: center;"><h2>Figma Tasarımları</h2></td>
