@@ -181,7 +181,7 @@ işletmeler.
 
   - **Sprint Notları**:
 
-      * Proje yönetimini kolaylaştırmak `Miro` aracı oy birliğiyle seçildi.
+      * Proje yönetimini kolaylaştırmak için `Miro` aracı oy birliğiyle seçildi.
 
       * Ön tasarım çalışmaları ve örnek sayfalar için Frontend-UI/UX ekibi `Figma` aracı seçildi.
     
