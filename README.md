@@ -309,7 +309,7 @@ işletmeler.
       
     - Ekip üyelerinin yaşadığı teknik ve özel hayattaki bazı aksiliklerden dolayı bu sprint istenilen performansı gösteremedik. Bu konuda tüm ekip üyeleri verimsiz bir sprint geçirdiğimiz konusunda hemfikir olduğunu belirtti.
       
-    - Sonuç olarak bu sprint sürecinin genel ilerleyiş hızı ve etkisinden tüm ekip üyelerimizin memnun değil.
+    - Sonuç olarak bu sprint sürecinin genel ilerleyiş hızı ve etkisinden ekip üyelerimizin tamamı memnun değil.
 
   - **Sprint Review Katılımcıları:** `Mehmet Akif Özden`, `Neslihan Gürgen`, `Nefise Buse Uzun`, `Mehmet Ali Keklik`, `Merve Karkın`
   
