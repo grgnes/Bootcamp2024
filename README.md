@@ -3,7 +3,7 @@
 
   # **Takım ve Ürün İsmi**
 
-  ### **`Grup 71`** <sup>(Ürün ve uygulama ismine henüz karar verilmediğinden dolayı bu şekilde kullanılmıştır)</sup>
+  ### **`Grup 71 - Aramızda`** 
 
   # Takım ve Ürün Hakkında Bilgiler
 
@@ -243,4 +243,97 @@ işletmeler.
     <ul>
       <li><strong>Uygulama ve Projenin Taslak Whitepaper Çalışması:</strong> <a href="./Bootcamp2024-ProjectManagement/1stSprint/takasUygulamasiWhitepaperTaslakCalismasi.pdf">See file</a></li>
 
-  ---
+
+  </details>
+
+  </details>
+  
+
+
+  <details>
+    <summary><h1>2. Sprint</h1></summary>
+
+
+  <details>
+    <summary><h3>Sprint 2 - Uygulama Tasarım Görüntüleri</h3></summary>
+  
+  <img src="Bootcamp2024-ProjectManagement/2ndSprint/1.png" style="max-width: 100%; height: auto;">
+  <img src="Bootcamp2024-ProjectManagement/2ndSprint/2.png" style="max-width: 100%; height: auto;">
+  <img src="Bootcamp2024-ProjectManagement/2ndSprint/3.png" style="max-width: 100%; height: auto;">
+  <img src="Bootcamp2024-ProjectManagement/2ndSprint/4.png" style="max-width: 100%; height: auto;">  
+  </details>   
+
+
+  <details>
+    <summary><h3>Sprint 2 - Sprint Tahtası Güncelleme Ekran Görüntüleri</h3></summary>
+    <img src="Bootcamp2024-ProjectManagement/2ndSprint/miro1.png" style="max-width: 100%; height: auto;">
+    <img src="Bootcamp2024-ProjectManagement/2ndSprint/miro2.png" style="max-width: 100%; height: auto;">
+  </details>
+
+
+
+  - **Sprint Notları**:
+
+      * Yapay zeka kullanım alanları ve yöntemleri kesinleştirildi.
+
+      * Keşfet ve karşılıklı değerlendirme bölümünde yapay zeka kullanımı için araştırma ve deneme yapılmasına karar verildi.
+    
+      * Eşleşme ve eşleme algoritması için tasarım ve planlama konusunda takım kararları alındı.
+   
+      * Ürün ve uygulama logosunun son haline karar verildi. Artık bu logonun kullanılması kararlaştırıldı.
+   
+      * Ürün ve uygulama sloganı fikir birliği ile onaylandı.
+   
+      * Uygulama ekranlarının son tasarım haline onay verildi.
+   
+      * Kullanılacak yapay zeka için karar alındı.
+    
+
+  - **Sprint içinde tamamlanması beklenen toplam puan**: 110 puan
+  - **Puan Tamamlama Mantığı**: (110 puan tamamlandı)` İkinci sprint 110 puan hedefine sahiptir.
+  - **Daily Scrum**:
+<img src="Bootcamp2024-ProjectManagement/2ndSprint/dailyScrum1.png" style="max-width: 100%; height: auto;">
+<img src="Bootcamp2024-ProjectManagement/2ndSprint/dailyScrum2.png" style="max-width: 100%; height: auto;">
+<img src="Bootcamp2024-ProjectManagement/2ndSprint/dailyScrum3.png" style="max-width: 100%; height: auto;">
+<img src="Bootcamp2024-ProjectManagement/2ndSprint/dailyScrum4.png" style="max-width: 100%; height: auto;">
+
+ - **Product Backlog URL:**  [Grup 71 Backlog](https://miro.com/welcomeonboard/NEJTWnRMSnVEdGN5c1h2eVRIZ2dXdWZZMTBYNmhqY0lZUWIydjlTeWJJSWlMNGNSOHlqVUtjY1gxalNmZFU3QXwzNDU4NzY0NTk0MDY4MjQ5MTA2fDI=?share_link_id=797245637649)
+
+ - **Sprint Review:**
+    
+    - Mehmet Ali ve Neslihan Backend bölümünü olarak AI ve kullanım alanları konusunda geliştirme yapmaya devam etme kararı aldılar. Buse, Akif ve Merve ise genel tasarım olarak bölümünü olarak ekran tasarımları ve ürün tanıtım videosu konusuna yoğunlaşma kararı aldı.
+
+    - Uygulama ismi ve sloganı belirlendi. "Aramızda" ismi grup üyelerinin tamamı tarafından uygun görüldü ve kabul edildi.
+
+    - Renk paleti konusunda bir karar henüz verilmedi. Tüm ekip genel iskelet tasarıma devam edip bu konuyu uygulama şekillendikçe ve sonuna yaklaştığımızda değerlendirmeye karar verdi.
+      
+    - Ekip üyelerinin yaşadığı teknik ve özel hayattaki bazı aksiliklerden dolayı bu sprint istenilen performansı gösteremedik. Bu konuda tüm ekip üyeleri verimsiz bir sprint geçirdiğimiz konusunda hemfikir olduğunu belirtti.
+      
+    - Sonuç olarak bu sprint sürecinin genel ilerleyiş hızı ve etkisinden tüm ekip üyelerimizin memnun değil.
+
+  - **Sprint Review Katılımcıları:** `Mehmet Akif Özden`, `Neslihan Gürgen`, `Nefise Buse Uzun`, `Mehmet Ali Keklik`, `Merve Karkın`
+  
+  
+  - **Sprint Retrospective:**
+
+    - Daily Scrum toplantılarının Whatsapp üzerinden devam etmesine karar verilmiştir. Gerektiğinde online toplantılar yapılması kararlaştırılmıştır.
+
+    - Uygulamanın geliştirme sürecine 3. Sprint ile beraber hız verilmesi gerektiği konusunda tüm ekip fikir birliği içerisinde karar vermiştir.
+
+    - Uygulama isminin, sloganının ve logosunun 2. Sprint döneminde belirlenmiştir ve bu şekilde kullanılmaya başlanmasına karar verilmiştir.
+
+    - Uygulamaya eklenebilecek yeni ve ek özelliklerin geliştirme sürecinde dikkate alınmasına karar verilmiştir.
+
+    - Uygulamada AI destekli chatbot kullanımı gereksiz görülüp bu özelliğin kaldırılmasına karar verilmiştir.
+   
+    - Premium üyelik seçeneceğinin mevcut planma sürecinde önceliği kaldırılmış ve sonra yeninden değerlendirilmek üzere ertelenmiştir.
+   
+    - Backend ekibinin beraber AI özellikleri konusunda deneme sürecini başlatmasına karar verilmiştir.
+   
+    - Uygulamanın mesajlaşma özelliğinin 3. sprint döneminde geliştirilmeye başlanmasına ve ertelenmesine karar verilmiştir.
+   
+    - Ayarlar sayfasının geliştirilmesini ve düzenlenmesi için son sprint dönemine karar verilmiştir.
+  
+
+  </details>
+  
