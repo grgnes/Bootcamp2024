@@ -3,17 +3,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/rendering.dart';
 
-class signScreen extends StatefulWidget {
-  const signScreen({super.key});
+class LoginView extends StatefulWidget {
+  const LoginView({super.key});
 
   @override
-  State<signScreen> createState() => _signScreenState();
+  State<LoginView> createState() => _signScreenState();
 }
 
-class _signScreenState extends State<signScreen> {
+class _signScreenState extends State<LoginView> {
   final _email = TextEditingController();
   final _password = TextEditingController();
   bool _isObscure = true;
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,18 +1,30 @@
 import 'package:bootcamp/Screens/productView.dart';
 import 'package:bootcamp/Screens/settingScreen.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:bootcamp/Widgets/navbar.dart';
-import 'package:bootcamp/Screens/settingScreen.dart';
-class homePageScreen extends StatefulWidget {
-  const homePageScreen({super.key});
+
+class HomeView extends StatefulWidget {
+  const HomeView({super.key});
 
   @override
-  State<homePageScreen> createState() => _homePageScreenState();
+  State<HomeView> createState() => _homePageScreenState();
 }
 
-class _homePageScreenState extends State<homePageScreen> {
-  TextEditingController _searchController = TextEditingController();
+class _homePageScreenState extends State<HomeView> {
+  late final TextEditingController _searchController;
+
+  @override
+  void initState() {
+    _searchController = TextEditingController();
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -52,7 +64,7 @@ class _homePageScreenState extends State<homePageScreen> {
             ),
             SizedBox(height: 30),
             Container(
-              padding: EdgeInsets.symmetric(vertical: 0.0,  horizontal: 20.0),
+              padding: EdgeInsets.symmetric(vertical: 0.0, horizontal: 20.0),
               child: Text(
                 'Hoş Geldin,',
                 style: TextStyle(fontSize: 23),
@@ -60,7 +72,8 @@ class _homePageScreenState extends State<homePageScreen> {
             ),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
-              child: Text('AD SOYAD', style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold)),
+              child: Text('AD SOYAD',
+                  style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold)),
             ),
             Padding(
               padding: EdgeInsets.all(16.0),
@@ -76,7 +89,8 @@ class _homePageScreenState extends State<homePageScreen> {
                         borderSide: BorderSide.none,
                       ),
                       filled: true,
-                      contentPadding: EdgeInsets.symmetric(vertical: 0, horizontal: 16),
+                      contentPadding:
+                          EdgeInsets.symmetric(vertical: 0, horizontal: 16),
                       fillColor: Colors.grey[200],
                     ),
                     onChanged: (query) {
@@ -118,8 +132,11 @@ class _homePageScreenState extends State<homePageScreen> {
             SizedBox(height: 30),
             TextButton(
                 onPressed: () {},
-                child: Text('Öne Çıkarılanlar', style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20, color: Colors.black))
-            ),
+                child: Text('Öne Çıkarılanlar',
+                    style: TextStyle(
+                        fontWeight: FontWeight.w400,
+                        fontSize: 20,
+                        color: Colors.black))),
             Center(
               child: GestureDetector(
                 onTap: () {

@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
-class loginScreen extends StatefulWidget {
-  const loginScreen({super.key});
+
+class RegisterView extends StatefulWidget {
+  const RegisterView({super.key});
 
   @override
-  State<loginScreen> createState() => _loginScreenState();
+  State<RegisterView> createState() => _loginScreenState();
 }
 
-class _loginScreenState extends State<loginScreen> {
+class _loginScreenState extends State<RegisterView> {
   final _adSoyad = TextEditingController();
   final _email = TextEditingController();
   final _password = TextEditingController();
   final _password2 = TextEditingController();
   bool _isObscure = true;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
