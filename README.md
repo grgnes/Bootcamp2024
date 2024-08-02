@@ -416,7 +416,7 @@ işletmeler.
   [![Ürün Tanıtım Videosu](Bootcamp2024-ProjectManagement/main/aramizdaYoutube.png)](https://www.youtube.com)
 
   ## APK Dosyamız
-  [APK DOSYAMIZI GÖRÜN!](https://www.youtube.com)
+  [APK DOSYAMIZ!](https://www.youtube.com)
 
 
   # **Kullanılan Teknolojiler**
