@@ -4,6 +4,7 @@
   # **Takım ve Ürün İsmi**
 
   ### **`Grup 71 - Aramızda`** 
+  <img src="Bootcamp2024-ProjectManagement/main/aramızda.png" />
 
   # Takım ve Ürün Hakkında Bilgiler
 
@@ -336,4 +337,113 @@ işletmeler.
   
 
   </details>
+
   
+<details>
+    <summary><h1>3. Sprint</h1></summary>
+
+
+  <details>
+    <summary><h3>Sprint 3 - Uygulama Tasarım Görüntüleri</h3></summary>
+  
+  <img src="Bootcamp2024-ProjectManagement/3rdSprint/1.png" style="max-width: 100%; height: auto;">
+  <img src="Bootcamp2024-ProjectManagement/3rdSprint/2.png" style="max-width: 100%; height: auto;">
+  <img src="Bootcamp2024-ProjectManagement/3rdSprint/3.png" style="max-width: 100%; height: auto;">
+  <img src="Bootcamp2024-ProjectManagement/3rdSprint/4.png" style="max-width: 100%; height: auto;">  
+  </details>   
+
+
+  <details>
+    <summary><h3>Sprint 3 - Sprint Tahtası Güncelleme Ekran Görüntüleri</h3></summary>
+    <img src="Bootcamp2024-ProjectManagement/3rdSprint/miro1.png" style="max-width: 100%; height: auto;">
+    <img src="Bootcamp2024-ProjectManagement/3rdSprint/miro2.png" style="max-width: 100%; height: auto;">
+  </details>
+
+
+
+  - **Sprint Notları**:
+
+      * Uygulama ekranları son haline getirildi.
+
+      * Kullanıcıların takas yapacakları diğer kullanıcıların güvenirlik seviyesini daha iyi anlayabilmesi için yıldız sisteminde önceki takasların ortalaması alınarak puanlama yapılan bir değerlendirme sistemine geçildi.
+    
+      * AI'ın uygulamaya eklenme sürecinde yaşanan sorunlardan ve kalan kısıtlı süreden dolayı uygulama çıkışının AI özellikleri olmadan yapılmasına karar verildi.
+   
+      * Ürün önerisi ve keşfet için algoritma iyileştirilmeleri yapıldı.
+   
+      * Ürün ve uygulama tanıtım videosu hazırlandı.
+   
+      * Uygulama APK format biçimine sokuldu. Ve gerçek cihazlarda test süreçleri başladı.
+   
+      * Performans iyileştirilmeleri yapıldı.
+    
+
+  - **Sprint içinde tamamlanması beklenen toplam puan**: 100 puan
+  - **Puan Tamamlama Mantığı**: (100 puan tamamlandı)` İkinci sprint 100 puan hedefine sahiptir.
+  - **Daily Scrum**:
+<img src="Bootcamp2024-ProjectManagement/3rdSprint/dailyScrum1.png" style="max-width: 100%; height: auto;">
+<img src="Bootcamp2024-ProjectManagement/3rdSprint/dailyScrum2.png" style="max-width: 100%; height: auto;">
+<img src="Bootcamp2024-ProjectManagement/3rdSprint/dailyScrum3.png" style="max-width: 100%; height: auto;">
+<img src="Bootcamp2024-ProjectManagement/3rdSprint/dailyScrum4.png" style="max-width: 100%; height: auto;">
+<img src="Bootcamp2024-ProjectManagement/3rdSprint/dailyScrum5.png" style="max-width: 100%; height: auto;">
+
+ - **Product Backlog URL:**  [Grup 71 Backlog](https://miro.com/welcomeonboard/NEJTWnRMSnVEdGN5c1h2eVRIZ2dXdWZZMTBYNmhqY0lZUWIydjlTeWJJSWlMNGNSOHlqVUtjY1gxalNmZFU3QXwzNDU4NzY0NTk0MDY4MjQ5MTA2fDI=?share_link_id=797245637649)
+
+ - **Sprint Review:**
+    
+    - Uygulama geliştirme sürecinde yaşanan bazı aksilikler tüm grup üyelerinin özverili ve artan çalışması ile aşıldı.
+
+    - AI ve AI destekli özelliklerin uygulamaya sonradan eklenmesine karar verildi. Bu kararın ana sebepleri uygulamaya eklerken karşılaşılan sorunlar ve elimizde kalan kısıtlı zamandan dolayı uygulama üzerinde sorunlar ve kararsızlıklar oluşuracağına karar verildi.
+
+    - Uygulama ekranlarında son düzenlemeler yapıldı. Bu düzenlemeler UI/UX açısından kullanıcılar için daha anlaşılır olması ve uygulamanın sade bir görüşünüş kazanması hedeflenerek yapıldı
+            
+    - Sonuç olarak bu sprint sürecinin genel ilerleyiş hızı ve etkisinden ekip üyelerimizin tamamı memnun değil. Ama sprint sonunda uygulamamızı bitirmiş olmak ekip üyelerinin en büyük motivasyon kaynağı oldu. Sonrasında uygulama üzerinde geliştirilmeler yapılması ve yayına alınması konusunda fikir birliği oluşturuldu.
+
+  - **Sprint Review Katılımcıları:** `Mehmet Akif Özden`, `Neslihan Gürgen`, `Nefise Buse Uzun`, `Mehmet Ali Keklik`, `Merve Karkın`
+  
+  
+  - **Sprint Retrospective:**
+
+    - Bootcamp'in başında belirlenen ve önceki sprintlerde bahsedilen (AI özellikleri dışındaki) tüm özellikler eklendi ve proje başarıyla tamamlandı.
+
+    - Ekip olarak sonuçlar açıklanana kadar tatil ve dinlenme sürecine geçtik.
+
+
+  </details>  
+
+# Bootcamp Sonu
+  ## Ürün Tanıtım Videomuz
+  [![Ürün Tanıtım Videosu](Bootcamp2024-ProjectManagement/main/aramızdaYoutube.png)](https://www.youtube.com)
+
+  ## APK Dosyamız
+  [APK DOSYAMIZI GÖRÜN!](https://www.youtube.com)
+
+
+  # **Kullanılan Teknolojiler**
+  - [x] `firebase_core`
+  - [x] `firebase_auth`
+  - [x] `cloud_firestore`
+  - [x] `hive_flutter`
+  - [x] `hive_generator`
+  - [x] `build_runner`
+  - [x] `another_stepper`
+  - [x] `flutter_animate`
+
+  - [x] `http`
+  - [x] `xml2json`
+
+  - [x] `get`
+  - [x] `intl`
+  - [x] `uuid`
+  - [x] `freezed_annotation`
+  - [x] `cached_network_image`
+  - [x] `stream_chat_flutter`
+  - [x] `flutter_stripe`
+  - [x] `google_maps_flutter`
+  - [x] `google_sign_in`
+  - [x] `image_picker`
+  - [x] `geolocator`
+  - [x] `flutter_markdown`
+
+  </body>
+  </html>  
