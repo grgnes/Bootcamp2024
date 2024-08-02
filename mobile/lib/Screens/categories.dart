@@ -22,24 +22,30 @@ class CategoriesPage extends StatelessWidget {
               child: Align(
                 alignment: Alignment.topCenter,
                 child: Image.asset(
-                  'assets/aramızda_logo.jpg',
+                  'assets/aramizda_logo.jpg',
                   height: 80,
                 ),
               ),
             ),
           ),
           Container(
-            padding: EdgeInsets.symmetric(horizontal: 20,vertical: 72),
+            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 72),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                Text('Kategoriler', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 35.0, color: Colors.black87)),
+                Text('Kategoriler',
+                    style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        fontSize: 35.0,
+                        color: Colors.black87)),
               ],
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 120), // Kategoriler için yukarıdan uzaklık (logonun altına yerleşmesi için)
+            padding: const EdgeInsets.only(
+                top:
+                    120), // Kategoriler için yukarıdan uzaklık (logonun altına yerleşmesi için)
             child: ListView(
               padding: EdgeInsets.all(10),
               children: [
@@ -80,7 +86,8 @@ class CategoriesPage extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => CategoryDetailPage(categoryName: categoryName),
+              builder: (context) =>
+                  CategoryDetailPage(categoryName: categoryName),
             ),
           );
         },

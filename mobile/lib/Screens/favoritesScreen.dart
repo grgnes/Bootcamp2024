@@ -19,22 +19,22 @@ class _favoritesPageState extends State<favoritesPage> {
         backgroundColor: Colors.white,
       ),
       body: Stack(
-          children: [
-      Padding(
-      padding: const EdgeInsets.only(top: 17),
-      child: Transform.translate(
-        offset: Offset(0, -20),
-        child: Align(
-          alignment: Alignment.topCenter,
-          child: Image.asset(
-            'assets/aramızda_logo.jpg',
-            height: 80,
+        children: [
+          Padding(
+            padding: const EdgeInsets.only(top: 17),
+            child: Transform.translate(
+              offset: Offset(0, -20),
+              child: Align(
+                alignment: Alignment.topCenter,
+                child: Image.asset(
+                  'assets/aramizda_logo.jpg',
+                  height: 80,
+                ),
+              ),
+            ),
           ),
-        ),
+        ],
       ),
-    ),
-    ],
-    ),
     );
   }
 }

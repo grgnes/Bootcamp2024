@@ -46,7 +46,7 @@ class _homePageScreenState extends State<HomeView> {
                 Transform.translate(
                   offset: Offset(1, 42),
                   child: Image.asset(
-                    'assets/aramızda_logo.jpg',
+                    'assets/aramizda_logo.jpg',
                     height: 80,
                   ),
                 ),

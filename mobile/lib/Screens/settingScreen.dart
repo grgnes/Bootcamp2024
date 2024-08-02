@@ -4,8 +4,6 @@ import 'package:bootcamp/Screens/settings/location.dart';
 import 'package:flutter/material.dart';
 import 'package:bootcamp/Widgets/navbar.dart';
 
-
-
 class settingPage extends StatefulWidget {
   const settingPage({super.key});
 
@@ -32,39 +30,44 @@ class _settingPageState extends State<settingPage> {
               child: Align(
                 alignment: Alignment.topCenter,
                 child: Image.asset(
-                  'assets/aramızda_logo.jpg',
+                  'assets/aramizda_logo.jpg',
                   height: 80,
                 ),
               ),
             ),
           ),
           Container(
-            padding: EdgeInsets.symmetric(horizontal: 20,vertical: 72),
+            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 72),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                Text('Ayarlar', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 35.0, color: Colors.black87)),
+                Text('Ayarlar',
+                    style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        fontSize: 35.0,
+                        color: Colors.black87)),
               ],
             ),
           ),
           Divider(height: 280, indent: 25, endIndent: 25),
           ListView(
-            padding: EdgeInsets.symmetric(vertical: 150,horizontal: 20),
+            padding: EdgeInsets.symmetric(vertical: 150, horizontal: 20),
             children: [
               _buildListTile(context, 'Profili Düzenle', AccountSettings()),
               _buildListTile(context, 'Premium Ayarları', PremiumSetting()),
               _buildListTile(context, 'Adres', Location()),
-              _buildListTile(context, 'Gizlilik ve Güvenlik', PriviatySecurity()),
+              _buildListTile(
+                  context, 'Gizlilik ve Güvenlik', PriviatySecurity()),
               //_buildListTile(context, 'Teklifler', teklifler()),
               _buildListTile(context, 'Çıkış', signOut()),
             ],
           ),
         ],
       ),
-
     );
   }
+
   Widget _buildListTile(BuildContext context, String title, Widget targetPage) {
     return ListTile(
       contentPadding: EdgeInsets.all(10),
@@ -97,6 +100,7 @@ class PremiumSetting extends StatelessWidget {
     );
   }
 }
+
 class PriviatySecurity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -117,16 +121,15 @@ class PriviatySecurity extends StatelessWidget {
     );
   }
 }
+
 class signOut extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-      ),
+      appBar: AppBar(),
       body: Center(
         child: Text('Language Settings Page'),
       ),
     );
   }
 }
-

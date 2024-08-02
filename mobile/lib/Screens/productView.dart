@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:bootcamp/Screens/profileScreen.dart';
 import '../Widgets/navbar.dart';
+
 class productView extends StatefulWidget {
   const productView({super.key});
 
@@ -27,7 +28,6 @@ class _productViewState extends State<productView> {
           },
         ),
       ),
-
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -38,7 +38,7 @@ class _productViewState extends State<productView> {
                 child: Align(
                   alignment: Alignment.topCenter,
                   child: Image.asset(
-                    'assets/aramızda_logo.jpg',
+                    'assets/aramizda_logo.jpg',
                     height: 80,
                   ),
                 ),
@@ -47,49 +47,68 @@ class _productViewState extends State<productView> {
             Container(
               width: 300.0,
               height: 300.0,
-              color: Colors.grey, // Geçici olarak gri bir kutu kullanabilirsiniz
+              color:
+                  Colors.grey, // Geçici olarak gri bir kutu kullanabilirsiniz
             ),
-
             SizedBox(height: 30),
-            Divider(height: 30,thickness: 2),
+            Divider(height: 30, thickness: 2),
             Row(
               children: [
-                SizedBox(width: 55,),
-                Text('Ürün adı: ',style: TextStyle(fontSize: 25,fontWeight: FontWeight.w500)),
+                SizedBox(
+                  width: 55,
+                ),
+                Text('Ürün adı: ',
+                    style:
+                        TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
                 Text('ürün adı'),
               ],
             ),
-            SizedBox(height: 20,),
-            Divider(height: 30,thickness: 2),
+            SizedBox(
+              height: 20,
+            ),
+            Divider(height: 30, thickness: 2),
             Row(
               children: [
-                SizedBox(width: 55,),
-                Text('Ürün Açıklaması: ',style: TextStyle(fontSize: 25,fontWeight: FontWeight.w500)),
+                SizedBox(
+                  width: 55,
+                ),
+                Text('Ürün Açıklaması: ',
+                    style:
+                        TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
                 Text('ürün adı'),
               ],
             ),
-            SizedBox(height: 20,),
-            Divider(height: 30,thickness: 2),
+            SizedBox(
+              height: 20,
+            ),
+            Divider(height: 30, thickness: 2),
             Row(
               children: [
-                SizedBox(width: 55,),
-                Text('Ürün Durumu: ',style: TextStyle(fontSize: 25,fontWeight: FontWeight.w500)),
+                SizedBox(
+                  width: 55,
+                ),
+                Text('Ürün Durumu: ',
+                    style:
+                        TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
                 Text('ürün adı'),
               ],
             ),
-            SizedBox(height: 20,),
-            Divider(height: 30,thickness: 2),
+            SizedBox(
+              height: 20,
+            ),
+            Divider(height: 30, thickness: 2),
             Row(
               children: [
-                SizedBox(width: 55,),
-                Text('Garantisi: ',style: TextStyle(fontSize: 25,fontWeight: FontWeight.w500)),
+                SizedBox(
+                  width: 55,
+                ),
+                Text('Garantisi: ',
+                    style:
+                        TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
                 Text('ürün adı'),
               ],
             ),
-            Divider(height: 30,thickness: 2),
-
-
-
+            Divider(height: 30, thickness: 2),
           ],
         ),
       ),

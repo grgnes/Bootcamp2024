@@ -20,6 +20,7 @@ class _ProfilePageState extends State<ProfilePage> {
     super.initState();
     _loadCity();
   }
+
   Future<void> _loadCity() async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
@@ -45,7 +46,7 @@ class _ProfilePageState extends State<ProfilePage> {
               child: Align(
                 alignment: Alignment.topCenter,
                 child: Image.asset(
-                  'assets/aramızda_logo.jpg',
+                  'assets/aramizda_logo.jpg',
                   height: 80,
                 ),
               ),
@@ -60,15 +61,18 @@ class _ProfilePageState extends State<ProfilePage> {
                 CircleAvatar(
                   radius: 80,
                   backgroundColor: Colors.grey[300],
-                  backgroundImage: AssetImage('assets/profile_placeholder.png'), // Placeholder image path
+                  backgroundImage: AssetImage(
+                      'assets/profile_placeholder.png'), // Placeholder image path
                 ),
                 SizedBox(height: 16),
                 Text('ad-soyad', style: TextStyle(fontSize: 25)),
                 SizedBox(height: 10),
                 Text('$_city', style: TextStyle(fontSize: 20)),
-                SizedBox(height: 16), // Add space between the city and the toggle buttons
+                SizedBox(
+                    height:
+                        16), // Add space between the city and the toggle buttons
                 ToggleButtons(
-                  isSelected: [ _selectedIndex == 0, _selectedIndex == 1 ],
+                  isSelected: [_selectedIndex == 0, _selectedIndex == 1],
                   onPressed: (int index) {
                     setState(() {
                       _selectedIndex = index;
@@ -89,7 +93,8 @@ class _ProfilePageState extends State<ProfilePage> {
                   fillColor: Colors.black,
                   borderRadius: BorderRadius.circular(8),
                 ),
-                SizedBox(height: 16), // Space between toggle buttons and the content
+                SizedBox(
+                    height: 16), // Space between toggle buttons and the content
                 IndexedStack(
                   index: _selectedIndex,
                   children: [

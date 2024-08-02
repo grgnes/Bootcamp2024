@@ -46,7 +46,7 @@ class _AddProductPhotoState extends State<addItemPage> {
               child: Align(
                 alignment: Alignment.topCenter,
                 child: Image.asset(
-                  'assets/aramızda_logo.jpg',
+                  'assets/aramizda_logo.jpg',
                   height: 80,
                 ),
               ),
@@ -54,7 +54,7 @@ class _AddProductPhotoState extends State<addItemPage> {
           ),
           SingleChildScrollView(
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 90),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 90),
               child: Column(
                 children: <Widget>[
                   GestureDetector(
@@ -64,11 +64,13 @@ class _AddProductPhotoState extends State<addItemPage> {
                       width: double.infinity,
                       color: Colors.grey[300],
                       child: _image == null
-                          ? Center(child: Text('Fotoğraf Seçin', style: TextStyle(fontSize: 18)))
+                          ? Center(
+                              child: Text('Fotoğraf Seçin',
+                                  style: TextStyle(fontSize: 18)))
                           : Image.file(
-                        File(_image!.path),
-                        fit: BoxFit.cover,
-                      ),
+                              File(_image!.path),
+                              fit: BoxFit.cover,
+                            ),
                     ),
                   ),
                   SizedBox(height: 20),
@@ -116,8 +118,12 @@ class _AddProductPhotoState extends State<addItemPage> {
                         });
                       }
                     },
-                    items: <String>['Hiç kullanılmamış', 'Kullanılmış', 'Hasarlı', 'Az Hasarlı']
-                        .map<DropdownMenuItem<String>>((String value) {
+                    items: <String>[
+                      'Hiç kullanılmamış',
+                      'Kullanılmış',
+                      'Hasarlı',
+                      'Az Hasarlı'
+                    ].map<DropdownMenuItem<String>>((String value) {
                       return DropdownMenuItem<String>(
                         value: value,
                         child: Text(value),
