@@ -349,7 +349,10 @@ işletmeler.
   <img src="Bootcamp2024-ProjectManagement/3rdSprint/1.png" style="max-width: 100%; height: auto;">
   <img src="Bootcamp2024-ProjectManagement/3rdSprint/2.png" style="max-width: 100%; height: auto;">
   <img src="Bootcamp2024-ProjectManagement/3rdSprint/3.png" style="max-width: 100%; height: auto;">
-  <img src="Bootcamp2024-ProjectManagement/3rdSprint/4.png" style="max-width: 100%; height: auto;">  
+  <img src="Bootcamp2024-ProjectManagement/3rdSprint/4.png" style="max-width: 100%; height: auto;">
+  <img src="Bootcamp2024-ProjectManagement/3rdSprint/5.png" style="max-width: 100%; height: auto;">
+  <img src="Bootcamp2024-ProjectManagement/3rdSprint/6.png" style="max-width: 100%; height: auto;">
+  
   </details>   
 
 
