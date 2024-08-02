@@ -4,7 +4,7 @@
   # **Takım ve Ürün İsmi**
 
   ### **`Grup 71 - Aramızda`** 
-  <img src="Bootcamp2024-ProjectManagement/main/aramızda.png" />
+  <img src="Bootcamp2024-ProjectManagement/main/aramizda.png" />
 
   # Takım ve Ürün Hakkında Bilgiler
 
@@ -413,10 +413,10 @@ işletmeler.
 
 # Bootcamp Sonu
   ## Ürün Tanıtım Videomuz
-  [![Ürün Tanıtım Videosu](Bootcamp2024-ProjectManagement/main/aramızdaYoutube.png)](https://www.youtube.com)
+  [![Ürün Tanıtım Videosu](Bootcamp2024-ProjectManagement/main/aramizdaYoutube.png)](https://www.youtube.com)
 
   ## APK Dosyamız
-  [APK DOSYAMIZI GÖRÜN!](https://www.youtube.com)
+  [APK DOSYAMIZ!](https://www.youtube.com)
 
 
   # **Kullanılan Teknolojiler**
