@@ -413,37 +413,20 @@ işletmeler.
 
 # Bootcamp Sonu
   ## Ürün Tanıtım Videomuz
-  [![Ürün Tanıtım Videosu](Bootcamp2024-ProjectManagement/main/aramizdaYoutube.png)](https://www.youtube.com)
+  [![Ürün Tanıtım Videosu](Bootcamp2024-ProjectManagement/main/aramizdaYoutube.png)](https://youtu.be/CqWNRep5U_U)
 
   ## APK Dosyamız
-  [APK DOSYAMIZ!](https://www.youtube.com)
+  [APK DOSYAMIZ!](https://drive.google.com/file/d/1D4PLYNmwBht3uH-ibwT68MqeF0eW7PFE/view?usp=sharing)
 
 
   # **Kullanılan Teknolojiler**
-  - [x] `firebase_core`
-  - [x] `firebase_auth`
-  - [x] `cloud_firestore`
-  - [x] `hive_flutter`
-  - [x] `hive_generator`
-  - [x] `build_runner`
-  - [x] `another_stepper`
-  - [x] `flutter_animate`
-
-  - [x] `http`
-  - [x] `xml2json`
-
-  - [x] `get`
-  - [x] `intl`
-  - [x] `uuid`
-  - [x] `freezed_annotation`
-  - [x] `cached_network_image`
-  - [x] `stream_chat_flutter`
-  - [x] `flutter_stripe`
-  - [x] `google_maps_flutter`
-  - [x] `google_sign_in`
-  - [x] `image_picker`
-  - [x] `geolocator`
-  - [x] `flutter_markdown`
+  - [x] `Dart 50.0%`
+  - [x] `CMake 15.1%`
+  - [x] `C++ 18.7%`
+  - [x] `Go 8.1%`
+  - [x] `Shell 3.2%`
+  - [x] `Swift 1.5%`
+  - [x] `Other 3.4%`
 
   </body>
   </html>  
