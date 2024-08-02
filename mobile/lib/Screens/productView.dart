@@ -47,6 +47,8 @@ class _productViewState extends State<productView> {
             Container(
               width: 300.0,
               height: 300.0,
+              child: Image.network(
+                  "https://img4.dhresource.com/webp/m/0x0/f3/albu/km/l/14/6083f190-1b32-4c20-b08c-96fdfdfa72b9.JPG"),
               color:
                   Colors.grey, // Geçici olarak gri bir kutu kullanabilirsiniz
             ),
@@ -60,7 +62,7 @@ class _productViewState extends State<productView> {
                 Text('Ürün adı: ',
                     style:
                         TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
-                Text('ürün adı'),
+                Text('Klasik Kadın Çanta'),
               ],
             ),
             SizedBox(
@@ -75,7 +77,7 @@ class _productViewState extends State<productView> {
                 Text('Ürün Açıklaması: ',
                     style:
                         TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
-                Text('ürün adı'),
+                Text('klasik siyah kadın çantası'),
               ],
             ),
             SizedBox(
@@ -90,7 +92,7 @@ class _productViewState extends State<productView> {
                 Text('Ürün Durumu: ',
                     style:
                         TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
-                Text('ürün adı'),
+                Text('İyi'),
               ],
             ),
             SizedBox(
@@ -105,7 +107,7 @@ class _productViewState extends State<productView> {
                 Text('Garantisi: ',
                     style:
                         TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
-                Text('ürün adı'),
+                Text('3 Yıl'),
               ],
             ),
             Divider(height: 30, thickness: 2),

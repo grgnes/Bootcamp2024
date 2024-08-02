@@ -1,5 +1,5 @@
+import 'package:bootcamp/feature/home/view/home_view.dart';
 import 'package:flutter/material.dart';
-import 'package:bootcamp/Screens/homePage.dart';
 import 'package:bootcamp/Screens/categories.dart';
 import 'package:bootcamp/Screens/addItemScreen.dart';
 import 'package:bootcamp/Screens/favoritesScreen.dart';
@@ -16,7 +16,7 @@ class CustomNavigationBar extends StatelessWidget {
       case 0:
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => homePageScreen()),
+          MaterialPageRoute(builder: (context) => HomeView()),
         );
         break;
       case 1:

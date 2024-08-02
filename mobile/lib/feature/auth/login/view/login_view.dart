@@ -1,3 +1,4 @@
+import 'package:bootcamp/feature/home/view/home_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
@@ -14,7 +15,7 @@ class _signScreenState extends State<LoginView> {
   final _email = TextEditingController();
   final _password = TextEditingController();
   bool _isObscure = true;
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,8 +29,11 @@ class _signScreenState extends State<LoginView> {
               children: [
                 SizedBox(height: 90),
                 Text(
-                    'Giriş Yap',
-                  style: TextStyle(fontWeight: FontWeight.w600, fontSize: 35.0, color: Colors.black87),
+                  'Giriş Yap',
+                  style: TextStyle(
+                      fontWeight: FontWeight.w600,
+                      fontSize: 35.0,
+                      color: Colors.black87),
                 ),
                 SizedBox(height: 30),
                 TextField(
@@ -37,7 +41,7 @@ class _signScreenState extends State<LoginView> {
                   decoration: InputDecoration(
                     labelText: 'E-Posta',
                     floatingLabelBehavior: FloatingLabelBehavior.never,
-                      prefixIcon: Icon(Icons.email),
+                    prefixIcon: Icon(Icons.email),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(14),
                       borderSide: BorderSide(
@@ -92,12 +96,20 @@ class _signScreenState extends State<LoginView> {
                   alignment: Alignment.bottomRight,
                   child: TextButton(
                       onPressed: () {},
-                      child: Text('Şifremi Unuttum.', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),)
-                  ),
+                      child: Text(
+                        'Şifremi Unuttum.',
+                        style: TextStyle(
+                            color: Colors.black, fontWeight: FontWeight.bold),
+                      )),
                 ),
-        
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(
+                      builder: (context) {
+                        return HomeView();
+                      },
+                    ));
+                  },
                   child: Container(
                     alignment: Alignment.center,
                     height: 50.0,
@@ -129,7 +141,7 @@ class _signScreenState extends State<LoginView> {
                       children: [
                         SizedBox(width: 12.0),
                         Image(
-                            image: AssetImage('assets/google_logo.png'),
+                          image: AssetImage('assets/google_logo.png'),
                           height: 24,
                         ),
                         SizedBox(width: 73),
@@ -138,7 +150,6 @@ class _signScreenState extends State<LoginView> {
                           style: TextStyle(
                             color: Colors.black54,
                             fontSize: 16.0,
-        
                           ),
                         ),
                       ],
@@ -150,15 +161,18 @@ class _signScreenState extends State<LoginView> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                        'Hesabın Yok Mu?',
+                      'Hesabın Yok Mu?',
                       style: TextStyle(
-                          fontSize: 15,
+                        fontSize: 15,
                       ),
                     ),
                     TextButton(
                         onPressed: () {},
-                        child: Text('Kayıt Ol.', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 15))
-                    ),
+                        child: Text('Kayıt Ol.',
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15))),
                   ],
                 ),
               ],

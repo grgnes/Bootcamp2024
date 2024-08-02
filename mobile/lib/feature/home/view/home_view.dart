@@ -72,7 +72,7 @@ class _homePageScreenState extends State<HomeView> {
             ),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
-              child: Text('AD SOYAD',
+              child: Text('Mehmet Ali Keklik',
                   style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold)),
             ),
             Padding(
@@ -157,6 +157,8 @@ class _homePageScreenState extends State<HomeView> {
                       Container(
                         width: 90,
                         height: 90,
+                        child: Image.network(
+                            "https://img4.dhresource.com/webp/m/0x0/f3/albu/km/l/14/6083f190-1b32-4c20-b08c-96fdfdfa72b9.JPG"),
                         decoration: BoxDecoration(
                           color: Colors.grey[300],
                           /* image: DecorationImage(
@@ -171,12 +173,12 @@ class _homePageScreenState extends State<HomeView> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Ürünün adı',
+                            'Klasik Kadın Çanta',
                             style: TextStyle(fontSize: 30),
                           ),
                           SizedBox(height: 7),
                           Text(
-                            'kategorisi',
+                            'çanta',
                             style: TextStyle(fontSize: 20),
                           ),
                         ],

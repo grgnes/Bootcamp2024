@@ -61,11 +61,11 @@ class _ProfilePageState extends State<ProfilePage> {
                 CircleAvatar(
                   radius: 80,
                   backgroundColor: Colors.grey[300],
-                  backgroundImage: AssetImage(
-                      'assets/profile_placeholder.png'), // Placeholder image path
+                  backgroundImage: NetworkImage(
+                      "https://media.licdn.com/dms/image/v2/D4D03AQGU0NPgazYOjQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721922691955?e=1727913600&v=beta&t=LOANn8lN1MihgWRUPOPbyv9un4a_N8K-bN1bwW9D_2M"), // Placeholder image path
                 ),
                 SizedBox(height: 16),
-                Text('ad-soyad', style: TextStyle(fontSize: 25)),
+                Text('Mehmet Ali Keklik', style: TextStyle(fontSize: 25)),
                 SizedBox(height: 10),
                 Text('$_city', style: TextStyle(fontSize: 20)),
                 SizedBox(
@@ -145,6 +145,8 @@ class _ProfilePageState extends State<ProfilePage> {
               Container(
                 width: 90,
                 height: 90,
+                child: Image.network(
+                    "https://www.luksatolye.com/resimler/b/chester-koltuk-uc-kisilik-deri-kanepe-siyah-renk-hakiki-koltuk120627b2.jpg"),
                 decoration: BoxDecoration(
                   color: Colors.grey[300],
                   /* image: DecorationImage(
@@ -159,12 +161,12 @@ class _ProfilePageState extends State<ProfilePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Ürünün adı',
+                    'Deri Koltuk',
                     style: TextStyle(fontSize: 30),
                   ),
                   SizedBox(height: 7),
                   Text(
-                    'kategorisi',
+                    'Koltuk',
                     style: TextStyle(fontSize: 20),
                   ),
                 ],
@@ -197,6 +199,8 @@ class _ProfilePageState extends State<ProfilePage> {
               Container(
                 width: 90,
                 height: 90,
+                child: Image.network(
+                    "https://i0.shbdn.com/photos/79/40/55/x5_11707940553ag.jpg"),
                 decoration: BoxDecoration(
                   color: Colors.grey[300],
                   /* image: DecorationImage(
@@ -207,19 +211,21 @@ class _ProfilePageState extends State<ProfilePage> {
                 ),
               ),
               SizedBox(width: 20),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'Ürünün adı',
-                    style: TextStyle(fontSize: 30),
-                  ),
-                  SizedBox(height: 7),
-                  Text(
-                    'Yorum',
-                    style: TextStyle(fontSize: 20),
-                  ),
-                ],
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Yemek Masası',
+                      style: TextStyle(fontSize: 30),
+                    ),
+                    SizedBox(height: 7),
+                    Text(
+                      'Oldukça iyi bir takas oldu...',
+                      style: TextStyle(fontSize: 20),
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
